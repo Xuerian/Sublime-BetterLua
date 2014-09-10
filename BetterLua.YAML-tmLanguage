@@ -173,8 +173,8 @@ repository:
     beginCaptures:
       '1': {name: variable.object.lua}
       '2': {name: variable.object.nested.lua}
-      '3': {name: call.method.other.lua}
-      '4': {name: call.function.other.lua}
+      '3': {name: meta.call.method.other.lua}
+      '4': {name: meta.call.function.other.lua}
     end: \)
     patterns:
     - include: '#general'

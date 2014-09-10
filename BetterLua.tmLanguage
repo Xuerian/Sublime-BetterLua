@@ -198,12 +198,12 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>call.method.other.lua</string>
+					<string>meta.call.method.other.lua</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>call.function.other.lua</string>
+					<string>meta.call.function.other.lua</string>
 				</dict>
 			</dict>
 			<key>end</key>
