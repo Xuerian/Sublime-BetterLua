@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indent</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>^\s*(else|end|\})\s*$|^\s*elseif\b((?!end).)*$</string>
+		<key>increaseIndentPattern</key>
+		<string>^\s*(else|elseif|for|(local\s+)?function|if|repeat|until|while)\b((?!end).)*$|.*\{\s*$</string>
+	</dict>
+	<key>uuid</key>
+	<string>f0add1c5-32e9-4785-a3a4-ea66005dac15</string>
+</dict>
+</plist>
