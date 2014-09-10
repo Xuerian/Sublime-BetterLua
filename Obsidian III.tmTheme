@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>Object</string>
 			<key>scope</key>
-			<string>variable.object, call.object</string>
+			<string>variable.object</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -75,7 +75,7 @@
 			<key>name</key>
 			<string>Nested objects</string>
 			<key>scope</key>
-			<string>variable.object.nested, call.object.nested</string>
+			<string>variable.object.nested</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

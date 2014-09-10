@@ -36,14 +36,14 @@
         },
         {
             "name": "Object",
-            "scope": "variable.object, call.object",
+            "scope": "variable.object",
             "settings": {
                 "foreground": "#aaccff"
             }
         },
         {
             "name": "Nested objects",
-            "scope": "variable.object.nested, call.object.nested",
+            "scope": "variable.object.nested",
             "settings": {
                 "foreground": "#88a3cc"
             }
@@ -133,7 +133,7 @@
             "settings": {
                 "fontStyle": "", 
                 "foreground": "#678CB1"
-            }, 
+            },
             "name": "variable", 
             "scope": "entity.name.tag.localname, entity.name.type.class"
         }, 
