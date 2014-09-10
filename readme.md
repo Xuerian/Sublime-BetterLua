@@ -6,9 +6,9 @@ Provides new scopes for themes to support:
 * variable.object.nested - Interim tables being accessed
 * variable.language.self
 * meta.call.method
-* meta.call.method
+* meta.call.function
 
-Includes a variant of Obsidian supporting these scopes. Any theme you wish to use must support these scopes for you to see any of the new highlighting. tmLanguage files are fairly simple to edit.
+Includes a variant of Obsidian supporting some of these scopes. Any theme you wish to use must support these scopes for you to see any of the new highlighting. tmLanguage files are fairly simple to edit.
 
 Scope names may change if they should be something else. 
 
