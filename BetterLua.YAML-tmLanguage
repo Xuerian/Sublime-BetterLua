@@ -119,7 +119,7 @@ repository:
  
   #VENDOR #NAME_VENDOR-function:
   #VENDOR   name: meta.functioncall.lua
-  #VENDOR   begin: (?<![^.]\.|:)\b#REGEX_VENDOR\b(?=[( {])
+  #VENDOR   begin: (?<![^.]\.|:)\b(#REGEX_VENDOR)\b(?=[( {])
   #VENDOR   beginCaptures:
   #VENDOR     '1': {name: support.function.vendor.lua.#NAME_VENDOR}
   #VENDOR   end: \)
