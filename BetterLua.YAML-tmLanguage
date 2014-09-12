@@ -25,15 +25,15 @@ repository:
     - include: '#lua-constant'
     - include: '#lua-self'
     - include: '#function-definition'
-    - include: '#lua-function-require'
+    - include: '#lua-keyword'
     #VENDOR - include: '##NAME_VENDOR-function'
+    - include: '#lua-function-require'
     - include: '#lua-function'
     - include: '#function-call'
     - include: '#table'
     - include: '#table-index'
     - include: '#lua-logic'
     - include: '#lua-operator'
-    - include: '#lua-keyword'
     - include: '#variable'
 
   string-single:
