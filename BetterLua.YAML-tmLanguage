@@ -22,6 +22,7 @@ repository:
     - include: '#lua-self'
     - include: '#function-definition'
     - include: '#lua-function-require'
+    #VENDOR - include: '##NAME_VENDOR-function'
     - include: '#lua-function'
     - include: '#function-call'
     - include: '#block-if'
@@ -115,6 +116,15 @@ repository:
     captures:
       '1': {name: string.quoted.lua}
       '2': {name: string.quoted.lua}
+ 
+  #VENDOR #NAME_VENDOR-function:
+  #VENDOR   name: meta.functioncall.lua
+  #VENDOR   begin: (?<![^.]\.|:)\b#REGEX_VENDOR\b(?=[( {])
+  #VENDOR   beginCaptures:
+  #VENDOR     '1': {name: support.function.vendor.lua.#NAME_VENDOR}
+  #VENDOR   end: \)
+  #VENDOR   patterns:
+  #VENDOR   - include: '#general'
 
   lua-function:
     name: meta.functioncall.lua
