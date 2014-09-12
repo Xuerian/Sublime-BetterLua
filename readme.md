@@ -1,9 +1,8 @@
 Better Lua
 ====
 
-New scopes for themes
+New scopes for theme usage
 ----
-Provides new scopes for themes to support:
 * variable.object - [Primary] Table being accessed
 * variable.object.nested - Interim tables being accessed
 * variable.language.self
@@ -22,7 +21,7 @@ Installation
 * Clone or unzip into Data/Packages/BetterLua
 * (Optionally) select Color Scheme -> BetterLua -> Obsidian III
 
-Building BetterLua.tmLanguage
+Building BetterLua.tmLanguage yourself
 ----
 * Install [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev)
 * Make changes to BetterLua.YAML-tmLanguage
