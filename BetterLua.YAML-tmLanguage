@@ -1,3 +1,5 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
 name: Lua (Better)
 comment: Improved Lua syntax (Greatly inspired by SublimeLove and SublimeLua syntax files)
 scopeName: source.lua
