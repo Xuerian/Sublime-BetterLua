@@ -16,6 +16,11 @@ Installation:
 * Clone or unzip into Data/Packages/BetterLua
 * (Optionally) select Color Scheme -> BetterLua -> Obsidian III
 
+Building BetterLua.tmLanguage:
+* Install [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev)
+* Make changes to BetterLua.YAML-tmLanguage
+* Build plist (.tmLanguage) with Ctrl-B
+
 See also: 
 
 * https://github.com/rorydriscoll/LuaSublime
