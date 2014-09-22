@@ -241,7 +241,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>keyword.operator, meta.literalindex</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

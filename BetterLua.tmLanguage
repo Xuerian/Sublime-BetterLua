@@ -361,11 +361,45 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#literal-index</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#variable-index</string>
 				</dict>
 				<dict>
 					<key>include</key>
 					<string>#variable</string>
+				</dict>
+			</array>
+		</dict>
+		<key>literal-index</key>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=\s)(\[)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.literalindex</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.literalindex</string>
+				</dict>
+			</dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#general</string>
 				</dict>
 			</array>
 		</dict>
@@ -587,7 +621,7 @@
 		<key>variable-index</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:(\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.?)*)|(\w[\w\d]*))\[</string>
+			<string>(?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))\[</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>

@@ -33,6 +33,7 @@ repository:
     - include: '#table'
     - include: '#lua-logic'
     - include: '#lua-operator'
+    - include: '#literal-index'
     - include: '#variable-index'
     - include: '#variable'
 
@@ -210,9 +211,19 @@ repository:
     name: keyword.control.lua
     match: \b(break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in)\b
 
+  literal-index:
+    begin: (?<=\s)(\[)
+    beginCaptures:
+      '1': {name: meta.literalindex}
+    end: (\])
+    endCaptures:
+      '1': {name: meta.literalindex}
+    patterns:
+    - include: '#general'
+
   variable-index:
     name: meta.tableindex.lua
-    begin: (?:(\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.?)*)|(\w[\w\d]*))\[
+    begin: (?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))\[
     end: \]
     beginCaptures:
       '1': {name: variable.object.lua}
