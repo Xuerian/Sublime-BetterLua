@@ -301,22 +301,6 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#block-if</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#block-for</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#block-while</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#block-repeat</string>
-				</dict>
-				<dict>
-					<key>include</key>
 					<string>#numeric-constant</string>
 				</dict>
 				<dict>
