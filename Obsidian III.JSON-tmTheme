@@ -151,7 +151,7 @@
                 "foreground": "#795"
             }, 
             "name": "Operator", 
-            "scope": "keyword.operator, meta.literalindex"
+            "scope": "keyword.operator, meta.structure.key"
         }, 
         {
             "settings": {
