@@ -215,23 +215,23 @@ repository:
     begin: (?<=\W|self)(\[)
     beginCaptures:
       '1': {name: meta.structure.key.lua}
-    end: (\])
+    end: \]
     endCaptures:
-      '1': {name: meta.structure.key.lua}
+      '0': {name: meta.structure.key.lua}
     patterns:
     - include: '#general'
-
+  
   variable-index:
     name: meta.tableindex.lua
     begin: (?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
-    end: (\])
+    end: \]
     beginCaptures:
       '1': {name: variable.object.lua}
       '2': {name: variable.object.nested.lua}
       '3': {name: variable.object.lua}
       '4': {name: meta.structure.key.lua}
     endCaptures:
-      '1': {name: meta.structure.key.lua}
+      '0': {name: meta.structure.key.lua}
     patterns:
     - include: '#general'
 
