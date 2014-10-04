@@ -28,7 +28,7 @@ settings:
     foreground: '#678CB1'
 
 - name: Object
-  scope: variable.object
+  scope: variable.object, meta.structure.key
   settings:
     foreground: '#aaccff'
 
@@ -110,7 +110,7 @@ settings:
     foreground: '#93C763'
 
 - name: Operator
-  scope: keyword.operator, meta.structure.key
+  scope: keyword.operator
   settings:
     fontStyle: ''
     foreground: '#795'

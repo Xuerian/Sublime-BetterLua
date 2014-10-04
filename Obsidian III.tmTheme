@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>Object</string>
 			<key>scope</key>
-			<string>variable.object</string>
+			<string>variable.object, meta.structure.key</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -241,7 +241,7 @@
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword.operator, meta.structure.key</string>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
