@@ -1,0 +1,136 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+comment: Based on https://github.com/jfromaniello/Grandson-of-Obsidian
+name: Grandson of Obsidian
+uuid: F96223EB-1AAB-4617-92F3-FA4D4F13DB09
+settings:
+- settings:
+    background: '#22282A'
+    caret: '#AEAFAD'
+    foreground: '#F1F2F3'
+    invisibles: '#4B4E55'
+    lineHighlight: '#282A2E'
+    selection: '#4F6164'
+- name: Comment
+  scope: comment
+  settings:
+    foreground: '#66747B'
+
+- name: Foreground
+  scope: keyword.operator.js, entity.name.tag, constant.other, source.php.embedded.line,
+    variable.parameter, meta.tag, declaration.tag
+  settings:
+    fontStyle: ''
+    foreground: '#F1F2F3'
+
+- name: Variable, String Link, Regular Expression, Tag Name
+  scope: variable, support.other.variable, string.other.link, string.regexp, entity.name.tag
+  settings:
+    foreground: '#678CB1'
+
+- name: Object
+  scope: variable.object
+  settings:
+    foreground: '#aaccff'
+
+- name: Nested objects
+  scope: variable.object.nested
+  settings:
+    foreground: '#88a3cc'
+
+- name: Function parameter
+  scope: variable.parameter.function
+  settings:
+    background: '#383d3f'
+
+- name: Language.Self
+  scope: variable.language.self
+  settings:
+    foreground: '#b3aaff'
+
+- name: Number, Constant, Function Argument, Tag Attribute, Embedded
+  scope: constant.numeric, support.constant, punctuation.section.embedded, keyword.other.unit
+  settings:
+    fontStyle: ''
+    foreground: '#FFCD22'
+
+- name: Class, Support
+  scope: entity.name.class, entity.name.type.class, support.type, support.class
+  settings:
+    fontStyle: ''
+    foreground: '#678CB1'
+
+- name: Language support
+  scope: support.function
+  settings:
+    fontStyle: ''
+    foreground: '#CFA'
+
+- name: String, Symbols, Inherited Class, Markup Heading
+  scope: string, constant.other.symbol, constant.character, entity.other.inherited-class,
+    markup.heading
+  settings:
+    fontStyle: ''
+    foreground: '#EC7600'
+
+- name: Bracket highlights
+  scope: bracket.highlights
+  settings:
+    foreground: '#555'
+
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings:
+    foreground: '#75715E'
+
+- name: diff.deleted
+  scope: markup.deleted
+  settings:
+    foreground: '#81A2BE'
+
+- name: diff.inserted
+  scope: markup.inserted
+  settings:
+    foreground: '#A6E22E'
+
+- name: diff.changed
+  scope: markup.changed
+  settings:
+    foreground: '#E6DB74'
+
+- name: variable
+  scope: entity.name.tag.localname, entity.name.type.class
+  settings:
+    fontStyle: ''
+    foreground: '#678CB1'
+
+- name: Keyword
+  scope: keyword, storage, entity.name.tag.css, constant.language
+  settings:
+    fontStyle: ''
+    foreground: '#93C763'
+
+- name: Operator
+  scope: keyword.operator, meta.structure.key
+  settings:
+    fontStyle: ''
+    foreground: '#795'
+
+- name: Invalid
+  scope: invalid
+  settings:
+    background: '#DF5F5F'
+    fontStyle: ''
+    foreground: '#CED2CF'
+
+- name: Separator
+  scope: meta.separator
+  settings:
+    background: '#82A3BF'
+    foreground: '#CED2CF'
+
+- name: Deprecated
+  scope: invalid.deprecated
+  settings:
+    background: '#B798BF'
+    fontStyle: ''
+    foreground: '#CED2CF'
