@@ -183,13 +183,13 @@ repository:
 
   function-call:
     name: meta.functioncall.lua
-    begin: (?:(\w[\w\d]*)(?:(?:\.(\w[\w\d\.]*))*)[\.:](\w[\w\d]*)\()|(?:(\w[\w\d]*)\()
+    begin: (?:(\w+)(?:(?:\.(\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"])))|(?:(\s\w+)(?:\(|(?=['"])))
     beginCaptures:
       '1': {name: variable.object.lua}
       '2': {name: variable.object.nested.lua}
       '3': {name: meta.call.method.other.lua}
       '4': {name: meta.call.function.other.lua}
-    end: \)
+    end: \)|(?<=['"])
     patterns:
     - include: '#general'
 
