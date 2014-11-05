@@ -242,7 +242,7 @@
 		<key>function-call</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:(\w+)(?:(?:\.(\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"])))|(?:(\s\w+)(?:\(|(?=['"])))</string>
+			<string>(\w+)(?:(?:\.(\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
