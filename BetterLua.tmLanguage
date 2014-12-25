@@ -242,7 +242,7 @@
 		<key>function-call</key>
 		<dict>
 			<key>begin</key>
-			<string>(\w+)(?:(?:\.(\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))</string>
+			<string>(\.?\w+)(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -632,7 +632,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.)*)(\w[\w\d]*)|(\w[\w\d]*)</string>
+			<string>(?:(\.?\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.)*)(\w[\w\d]*)|(\.?\w[\w\d]*))</string>
 			<key>name</key>
 			<string>variable.other.lua</string>
 		</dict>
