@@ -23,6 +23,7 @@ Includes a variant of Obsidian supporting some of these scopes. Any theme you wi
 
 1. Clone or unzip into Data/Packages/BetterLua
 * (Optionally) select Color Scheme -> BetterLua -> Obsidian III
+* (Optionally) Add "betterlua": "lua" in your SublimeLinter "syntax map" user settings
 
 ## Building BetterLua.tmLanguage yourself
 
