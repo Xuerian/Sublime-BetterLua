@@ -242,7 +242,7 @@
 		<key>function-call</key>
 		<dict>
 			<key>begin</key>
-			<string>(\.?\w+)(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))</string>
+			<string>(?:(\.?\w+)|(?&lt;=self))(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -255,12 +255,12 @@
 					<key>name</key>
 					<string>variable.object.nested.lua</string>
 				</dict>
-				<key>3</key>
+				<key>4</key>
 				<dict>
 					<key>name</key>
 					<string>meta.call.method.other.lua</string>
 				</dict>
-				<key>4</key>
+				<key>5</key>
 				<dict>
 					<key>name</key>
 					<string>meta.call.function.other.lua</string>
