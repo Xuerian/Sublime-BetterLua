@@ -605,7 +605,7 @@
 		<key>variable-index</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)</string>
+			<string>(?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>

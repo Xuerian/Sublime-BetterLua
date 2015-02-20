@@ -223,7 +223,7 @@ repository:
   
   variable-index:
     name: variable.other.lua
-    begin: (?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
+    begin: (?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
     end: \]
     beginCaptures:
       '1': {name: variable.object.lua}
