@@ -34,7 +34,6 @@ repository:
     - include: '#lua-logic'
     - include: '#lua-operator'
     - include: '#bracket-index-self'
-    - include: '#bracket-index'
     - include: '#variable-index'
     - include: '#variable'
 
@@ -219,16 +218,6 @@ repository:
     end: \]
     endCaptures:
       '0': {name: variable.language.self.lua}
-    patterns:
-    - include: '#general'
-
-  bracket-index:
-    begin: (?<=\W|self)(\[)
-    beginCaptures:
-      '1': {name: meta.structure.key.lua}
-    end: \]
-    endCaptures:
-      '0': {name: meta.structure.key.lua}
     patterns:
     - include: '#general'
   

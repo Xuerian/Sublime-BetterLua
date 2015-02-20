@@ -147,36 +147,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>bracket-index</key>
-		<dict>
-			<key>begin</key>
-			<string>(?&lt;=\W|self)(\[)</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>meta.structure.key.lua</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>\]</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>meta.structure.key.lua</string>
-				</dict>
-			</dict>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>#general</string>
-				</dict>
-			</array>
-		</dict>
 		<key>bracket-index-self</key>
 		<dict>
 			<key>begin</key>
@@ -406,10 +376,6 @@
 				<dict>
 					<key>include</key>
 					<string>#bracket-index-self</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#bracket-index</string>
 				</dict>
 				<dict>
 					<key>include</key>
