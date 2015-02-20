@@ -222,7 +222,7 @@ repository:
     - include: '#general'
   
   variable-index:
-    name: meta.tableindex.lua
+    name: variable.other.lua
     begin: (?:(\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
     end: \]
     beginCaptures:

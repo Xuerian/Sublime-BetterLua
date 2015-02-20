@@ -640,7 +640,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tableindex.lua</string>
+			<string>variable.other.lua</string>
 			<key>patterns</key>
 			<array>
 				<dict>
