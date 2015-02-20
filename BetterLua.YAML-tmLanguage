@@ -222,14 +222,15 @@ repository:
     - include: '#general'
   
   variable-index:
-    name: variable.other.lua
-    begin: (?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
+    name: meta.arrayindex.lua
+    begin: ((\.?\w[\w\d]*+)?\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)
     end: \]
     beginCaptures:
-      '1': {name: variable.object.lua}
-      '2': {name: variable.object.nested.lua}
-      '3': {name: variable.object.lua}
-      '4': {name: meta.structure.key.lua}
+      '1': {name: variable.other.lua}
+      '2': {name: variable.object.lua}
+      '3': {name: variable.object.nested.lua}
+      '4': {name: variable.object.lua}
+      '5': {name: meta.structure.key.lua}
     endCaptures:
       '0': {name: meta.structure.key.lua}
     patterns:

@@ -605,25 +605,30 @@
 		<key>variable-index</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)</string>
+			<string>((\.?\w[\w\d]*+)?\.(?:(?:(\w[\w\d\.]*+)\.?)*+)|(\w[\w\d]*+))(\[)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>variable.object.lua</string>
+					<string>variable.other.lua</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.object.nested.lua</string>
+					<string>variable.object.lua</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>variable.object.lua</string>
+					<string>variable.object.nested.lua</string>
 				</dict>
 				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>variable.object.lua</string>
+				</dict>
+				<key>5</key>
 				<dict>
 					<key>name</key>
 					<string>meta.structure.key.lua</string>
@@ -640,7 +645,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>variable.other.lua</string>
+			<string>meta.arrayindex.lua</string>
 			<key>patterns</key>
 			<array>
 				<dict>
