@@ -238,7 +238,7 @@ repository:
 
   variable:
     name: variable.other.lua
-    match: (?:(\.?\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.)*)(\w[\w\d]*)|(\.?\w[\w\d]*))
+    match: (?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.)*+)(\w[\w\d]*+)|(\.?\w[\w\d]*+))
     captures:
       '1': {name: variable.object.lua}
       '2': {name: variable.object.nested.lua}

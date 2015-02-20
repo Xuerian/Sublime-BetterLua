@@ -598,7 +598,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:(\.?\w[\w\d]*)\.(?:(?:(\w[\w\d\.]*)\.)*)(\w[\w\d]*)|(\.?\w[\w\d]*))</string>
+			<string>(?:(\.?\w[\w\d]*+)\.(?:(?:(\w[\w\d\.]*+)\.)*+)(\w[\w\d]*+)|(\.?\w[\w\d]*+))</string>
 			<key>name</key>
 			<string>variable.other.lua</string>
 		</dict>
