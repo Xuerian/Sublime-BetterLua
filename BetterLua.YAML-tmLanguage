@@ -182,7 +182,7 @@ repository:
 
   function-call:
     name: meta.functioncall.lua
-    begin: (?:(\.?\w+)|(?<=self))(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\(|(?=['"]))|(\w+)(?:\(|(?=['"]))
+    begin: (?:(\.?\w+)|(?<=self))(?:(?:(\.\w[\w\.]*))*)[\.:](\w+)(?:\s*\(|(?=['"]))|(\w+)(?:\s*\(|(?=['"]))
     beginCaptures:
       '1': {name: variable.object.lua}
       '2': {name: variable.object.nested.lua}
