@@ -351,6 +351,14 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#lua-logic</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#lua-operator</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#lua-function-require</string>
 				</dict>
 				<dict>
@@ -364,14 +372,6 @@
 				<dict>
 					<key>include</key>
 					<string>#table</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#lua-logic</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#lua-operator</string>
 				</dict>
 				<dict>
 					<key>include</key>
